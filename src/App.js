@@ -1,6 +1,7 @@
 import './App.css';
 import Cactus from './components/Cactus';
 import Mesa from './components/Mesa';
+import SunAndMoon from './components/SunAndMoon';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Cactus />
       <Mesa />
+      <SunAndMoon />
       <div className="ground"></div>
     </>
   );

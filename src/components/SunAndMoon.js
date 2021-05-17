@@ -15,6 +15,7 @@ export default function SunAndMoon( { night } ) {
     return <svg
         className="sun-and-moon"
         viewBox="0 0 100 100"
+        style={ { filter: night ? "drop-shadow(0 0 30px white)" : null } }
     >
         { night ? moon : sun }
     </svg>;

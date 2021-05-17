@@ -27,6 +27,21 @@ function App() {
         className="sky"
         style={ { backgroundColor: night ? "#222B60" : "#E3BB83" } }
       ></div>
+      <a
+        href="https://github.com/josh-frank/trans-pecos"
+        target="_blank"
+        rel="noreferrer"
+        style={ {
+          position: "absolute",
+          top: "90%",
+          left: "90%",
+          fontSize: "small",
+          fontFamily: "Sans-Serif",
+          color: "#FAFAFF"
+        } }
+      >
+        GITHUB
+      </a>
     </>
   );
 

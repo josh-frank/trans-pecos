@@ -1,0 +1,28 @@
+:root {
+  --dark-brown: #4B2300;
+}
+
+.ground {
+  position: absolute;
+  width: 100vw;
+  height: 25vh;
+  top: 80%;
+  left: 0;
+  background-color: #000000;
+}
+
+.mesa {
+  position: absolute;
+  z-index: -999;
+  width: 100vw;
+  top: 50%;
+  left: 0;
+}
+
+.cactus {
+  position: absolute;
+  width: 30vw;
+  height: 45vh;
+  top: 45%;
+  left: 0;
+}

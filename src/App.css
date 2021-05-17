@@ -2,6 +2,26 @@
   --dark-brown: #4B2300;
 }
 
+@keyframes tumbleweedAnimation {
+  0% { left: -10%; }
+  25% {
+    left: 20%;
+    transform: rotate( 180deg );
+  }
+  50% {
+    left: 50%;
+    transform: rotate( 360deg );
+  }
+  75% {
+    left: 80%;
+    transform: rotate( 540deg );
+  }
+  100% {
+    left: 110%;
+    transform: rotate( 720deg );
+  }
+}
+
 body {
   background-color: #E3BB83;
 }
@@ -38,4 +58,15 @@ body {
   height: 30vh;
   top: 10%;
   left: 50%;
+}
+
+.tumbleweed {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 67.5%;
+  animation-name: tumbleweedAnimation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
